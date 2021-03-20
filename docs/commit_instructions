@@ -1,0 +1,13 @@
+
+1. Make a virtual environment for working
+	==> virtualenv -p python3 env <==
+
+=> If a requirements.txt file is already present, we can install those dependencies using the following command 
+	==> pip3 install -r requirements.txt <==
+
+2. The name "env" has been added to the .gitignore, so that the repo is not unnecessarily bloated.
+
+3. Before committing , please run the following command : 
+	==> pip3 freeze > requirements.txt  <==
+
+4. Other commit instructions are the same as the standard ones. Primary aim of these instructions is to ensure consistency of environments.
