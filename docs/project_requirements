@@ -1,6 +1,6 @@
 There are two types of requirements:
 
-1. crawl(depth, url)
+1. crawl(url, depth)
 2. show_html(url)
 3. show_graph(url, depth)
 4. page_rank(url)
@@ -8,6 +8,8 @@ There are two types of requirements:
 Points to be noted
 1. Storage across different clients has to be independent of each other. We need to generate a compiled output on run time of a query
 2. We assume no failure of clients
+3. Html contents have to be stored in the PC ( only the first 100 words )
+4. 
 
 BONUS REQUIREMENTS
 1. Multiple clients are on different systems

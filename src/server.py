@@ -10,15 +10,15 @@
 # thread 1 : listen for and accept connections
 # thread 2 : Sending data to an already connected client
 
+import os
 import socket 
 import sys
 import threading
 import time
 from queue import Queue
 
-import mst
-
 command_queue = Queue()
+
 PORT = 49664
 FORMAT = "utf-8"
 DISCONNECT_MSG = "quit"
@@ -39,110 +39,67 @@ def run_command(command):
 
 	words = command.split()
 
-	if words[0] == "add_graph":
-		# we create a a new graph
-		graph_name = words[1]
-		number_of_nodes = int(words[2])
-		new_graph = mst.Graph(number_of_nodes)
+	if words[0] == "crawl":
+		return f"{command} :: Crawling has been done"
 
+
+	elif words[0] == "show_html":
+		return f"{command} :: first 100 words of the html have been displayed "
+
+	elif words[0] == "show_graph":
+		return f"{command} :: Graph has been plotted and saved with the corresponding url name "
+
+	elif words[0] == "exit":
+		os._exit(1)
+	elif words[0] == "show_clients":
 		with data_lock:
-			graphs_dict[graph_name] = new_graph
-
-		# we have added a new graph there
-		return f"{command} :: Graph Created"
-
-
-	elif words[0] == "add_edge":
-		graph_name = words[1]
-		vertexA = int(words[2])
-		vertexB = int(words[3])
-		weight = int(words[4])
-
-		# we have to add a new edge to a graph here
-
-		with data_lock:
-			graphs_dict[graph_name].addEdge(vertexA, vertexB, weight)
-
-		# so, we've added an edge too
-		return f"{command} :: Edge added"
-
-	elif words[0] == "get_mst":
-		graph_name = words[1]
-
-		with data_lock:
-			concerned_graph = graphs_dict[graph_name]
-		# we want to hold it for as less of a time as possible
-
-		return str(concerned_graph.getMSTWeight())
-
+			for connection_object in list_of_connections:
+				print("connected to " , connection_object["connection_address"] )
+			print("Only so many connections are there")
 	else:
 		return "Bad Command. Resend"
 
+def validate_command(command):
+	words = command.split()
 
-	
+	if not (words[0] == "crawl" or words[0] == "show_html" or words[0] == "show_graph" or words[0] == "exit" or words[0] == "show_clients"):
+		return False
+	return True
+
 
 # Running with thread :: thread_execute_commands
 def collect_commands():
-	# the idea is to collect commands from the server input and put them in a queue. 
-	# then we distribute them among clients, and later we collect output
-
-	# if yes, then pop one and execute
+	print("Collecting commands here")
 	while True:
-		command = input("Please enter the next command => " )
+		command = input("=> " )
 
 		if(validate_command(command)):
-			command_object = allocate_command(command, list_of_connections)
-			# this should give us a dictionary with keys { command, connection_object, connection_address }
-			# this tells us what client has the command been allocated to
-			# the rest of the architecture has yet to be decided
-
-		
-			# with data_lock:
-			# 	command_queue.push(command_object)
-			
-
-			# # because I want to keep the processing out of the data lock
-			# if received_command == True:		
-			# 	connection_object = command_object["connection"]
-			# 	address = str(command_object["address"])
-			# 	command = str(command_object["command"])
-
-			# 	print(f"[{address}] {command} ")
-
-			# 	if command == DISCONNECT_MSG:
-			# 		print(f"[CLOSING] Terminating Connnection with {address}")
-			# 		connection_object.close()
-				
-			# 	else:
-			# 		result = run_command(command)
-			# 		connection_object.send(result.encode(FORMAT))
-			# else:
-			# 	time.sleep(1)
-
+			print(run_command(command))
 	return
 
 # Running with thread :: thread_receive_commands
-def handle_client(connection, address):
-	print(f"[NEW CONNECTION] {address} connected ")
-	connected = True
+# def handle_client(connection, address):
 
-	while connected: 
-		message = connection.recv(SIZE).decode(FORMAT)
+# 	print(f"[NEW CONNECTION] {address} connected ")
+# 	connected = True
 
-		if message == DISCONNECT_MSG :
-			connected = False
-			# we shall exit the loop and leave it to the command executor to close the connections
+# 	while connected: 
+# 		message = connection.recv(SIZE).decode(FORMAT)
+
+# 		if message == DISCONNECT_MSG :
+# 			connected = False
+# 			# we shall exit the loop and leave it to the command executor to close the connections
 		
-		command = {
-			"connection" : connection,
-			"address" : address,
-			"command" : message
-		}
-			# lock the queue, and add the command to it
-		with data_lock:
-			command_queue.put(command)
+# 		command = {
+# 			"connection" : connection,
+# 			"address" : address,
+# 			"command" : message
+# 		}
+# 			# lock the queue, and add the command to it
+# 		with data_lock:
+# 			command_queue.put(command)
 
-	return 
+# 	return 
 
 
 def start_server(IP = socket.gethostbyname(socket.gethostname())):
@@ -175,9 +132,9 @@ def start_server(IP = socket.gethostbyname(socket.gethostname())):
 
 		list_of_connections.append(connection_dict)
 
-		thread_send_commands = threading.Thread(target = handle_client, args = (connection, address) )
+		# thread_send_commands = threading.Thread(target = handle_client, args = (connection, address) )
 		
-		thread_send_commands.start()
+		# thread_send_commands.start()
 		
 		print(f"[ACTIVE CONNECTIONS] {threading.activeCount() - 2} ")
 

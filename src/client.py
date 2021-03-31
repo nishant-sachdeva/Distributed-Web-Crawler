@@ -10,6 +10,8 @@ DISCONNECT_MSG = "quit"
 SIZE = 2048
 
 
+def execute_command(command):
+	return command
 
 
 
@@ -18,21 +20,30 @@ def run_client(IP = socket.gethostbyname(socket.gethostname())):
 	ADDR = (IP, PORT)
 
 	client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-
+	is_connected = False
+	
+	client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+	
 	try:
 		client.connect(ADDR)
-
 		print(f"[CONNECTED] Client connected to server at {IP} : {PORT} ")
-
-		# for command in list_of_commands:
-		# 	client.send(command.encode(FORMAT))
-			# print(f"[WAITING FOR ] {command}")
-			
-			response = client.recv(SIZE).decode(FORMAT)
-			print(f"[RESPONSE] {response}")
-			# time.sleep(1)
+		is_connected = True
 	except:
-		print(f"No connection with {ADDR} ")
+		print(f"Could not connect to {ADDR} ")
+
+	if (is_connected):
+		while True:
+			# 	
+			command = client.recv(SIZE).decode(FORMAT)
+			print(f"[COMMAND RECEIVED] {command}")
+
+			response = execute_command(command)
+			
+			client.send(response.encode(FORMAT))
+			print(f"[SENDING] {response}")
+
+	return
+
 
 # get the input.txt path
 # send that path to the run_client function

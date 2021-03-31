@@ -13,7 +13,7 @@ def validate_url(url):
 		return False
 
 
-def crawl(pages, WebUrl):
+def crawl(WebUrl, pages):
 	if (pages > 0) :
 		print("We shall go to " + str(pages-1) + " more levels of these pages")
 
