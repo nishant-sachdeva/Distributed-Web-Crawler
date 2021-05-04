@@ -1,17 +1,75 @@
-from flask import Flask 
-from flask_socketio import SocketIO, send
+from flask import Flask, request
+import threading
+
+import requests
+
+from generate_urls import make_urls
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'mysecret'
-socketio = SocketIO(app, cors_allowed_origins=None)
+
+@app.route('/check', methods=['GET'])
+def check():
+	current_url = request.host
+	answer = []
 
 
-@socketio.on('message')
-def handleMessage(msg):
-	print('Message: ' + msg)
-	send(msg, broadcast=True)
+	for url in URLS :
+		if url == current_url:
+			continue
+		else:
+			r = requests.get(url=url)
+			answer.append(r.text)
+
+	answer_dict = {
+	'answer_list' : answer,
+	}
+
+	return answer_dict
+
+
+
+@app.route('/', methods=['GET'])
+def home():
+	answer = request.host
+	return answer
+
+
+@app.route('/crawl', methods=['GET'])
+def crawl():
+	if request.method == "GET":
+		data = request.args.get('command')
+
+		answer = {
+		'data' : data + " has been received",
+		}
+
+	return answer
+
+
+@app.route('/make_graph', methods=['GET'])
+def make_graph():
+	if request.method == "GET":
+		data = request.args.get('command')
+
+		answer = {
+		'data' : data + " has been received",
+		}
+
+	return answer
+
+
+def startapp(port_number):
+	print("starting server at port " + str(port_number))
+	app.run(port=port_number, threaded=True)
+
+URLS = []
 
 if __name__ == '__main__':
-	socketio.run(app, debug=True, host='0.0.0.0', port=49664)
+	number_of_ports = int(input("Enter number of ports: "))
+	URLS = make_urls(number_of_ports)
+
+	for i in range(number_of_ports):
+		thread = threading.Thread(target=startapp, args=(5000+i, ))
+		thread.start()
 
 
