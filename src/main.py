@@ -79,7 +79,7 @@ while True:
 		website = input("Enter Website : ")
 		name = "storage/" + website.replace('/', '') + ".txt"
 		print(name)
-		check_if_exists_and_print_html(website)
+		check_if_exists_and_print_html(name)
 		continue
 	else:
 		print("Invalid Command . Try Again")
