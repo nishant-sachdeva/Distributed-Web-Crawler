@@ -3,7 +3,7 @@ import threading
 
 import requests
 import sys
-
+import json
 from crawler import crawl
 from generate_urls import make_urls, get_random_url
 
@@ -89,11 +89,41 @@ def crawler():
 @app.route('/make_graph', methods=['GET'])
 def make_graph():
 	if request.method == "GET":
-		data = request.args.get('command')
+		website = request.args.get('website')
+		depth = int(request.args.get('depth'))
+		
+		answer = {}
 
-		answer = {
-		'data' : data + " has been received",
-		}
+		# check if the node is present in this one
+		if website in child_adjacency:
+			if depth>0:
+				# if it exists
+				# do further work
+				answer[website] = [child for child, worker in child_adjacency[website] ]
+				
+				for child, worker in child_adjacency[website]:
+					
+					worker = worker + "make_graph"
+					params = {
+						'website' : child,
+						'depth' : depth - 1 ,
+					}
+					
+					r = requests.get(url = worker, params = params)
+					data = json.loads(r.text)
+
+					for worker in data.keys():
+						if worker not in answer:
+							answer[worker] = data[worker]
+						else:
+							non_redundant_child_list = list(set(answer[worker] + data[worker]))
+							answer[worker] = non_redundant_child_list
+
+			else:
+				answer[website] = [child for child, worker in child_adjacency[website] ]
+
+		else:
+			answer[website] = []
 
 	return answer
 

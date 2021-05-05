@@ -1,0 +1,8 @@
+ASSUMPTIONS FOR THE CODE:
+
+1. we assume 4 worker nodes/clients which run on ports immediately succeeding port 5000.(5001, 5002, 5003, 5004)
+	
+	-> These said ports will have to entered as arguments when the nodes are run.
+
+2. The number of worker nodes that we are starting with can be changed, easily by making a trivial change in the code.
+ ( A tutorial for the same shall be given in the demo submission ).

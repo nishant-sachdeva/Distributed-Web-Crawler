@@ -12,12 +12,23 @@ def validate_url(url):
 	except:
 		return False
 
+def hard_disk_store(text, url):
+	name = "storage/" + url.replace('/', '') + ".txt" 
+	print("html stored in ", name)
+	file = open(name,"w+")
+	file.write(text)
+	file.close()
+
+	return
+
 
 def crawl(WebUrl):
 	print("inside crawling now")
 
 	code = requests.get(url=WebUrl)
 	plain = code.text
+
+	hard_disk_store(plain, WebUrl)
 
 	s = BeautifulSoup(plain, "html.parser")
 

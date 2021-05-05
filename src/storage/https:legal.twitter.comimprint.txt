@@ -1,0 +1,483 @@
+<!doctype html>
+  <html lang="en_US" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8"/>
+
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<title>Imprint</title>
+<meta name="description"/>
+<link rel="canonical" href="https://legal.twitter.com/imprint.html"/>
+
+
+
+<meta property="og:url" content="https://legal.twitter.com/imprint.html"/>
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="Imprint"/>
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <link rel="alternate" hreflang="imprint" href="https://legal.twitter.com/imprint.html"/>
+      <link rel="alternate" hreflang="ads-terms" href="https://legal.twitter.com/imprint.html"/>
+      <link rel="alternate" hreflang="emea-procurement-msa" href="https://legal.twitter.com/imprint.html"/>
+      <link rel="alternate" hreflang="suppliers" href="https://legal.twitter.com/imprint.html"/>
+      <link rel="alternate" hreflang="data-terms" href="https://legal.twitter.com/imprint.html"/>
+      <link rel="alternate" hreflang="contributor-license-agreement" href="https://legal.twitter.com/imprint.html"/>
+      <link rel="alternate" hreflang="en" href="https://legal.twitter.com/imprint.html"/>
+      <link rel="alternate" hreflang="it" href="https://legal.twitter.com/imprint.html"/>
+      <link rel="alternate" hreflang="de" href="https://legal.twitter.com/imprint.html"/>
+      <link rel="alternate" hreflang="es" href="https://legal.twitter.com/imprint.html"/>
+      <link rel="alternate" hreflang="fr" href="https://legal.twitter.com/imprint.html"/>
+      <link rel="alternate" hreflang="ja" href="https://legal.twitter.com/imprint.html"/>
+      <link rel="alternate" hreflang="ko" href="https://legal.twitter.com/imprint.html"/>
+      <link rel="alternate" hreflang="pt" href="https://legal.twitter.com/imprint.html"/>
+      <link rel="alternate" hreflang="ru" href="https://legal.twitter.com/imprint.html"/>
+      <link rel="alternate" hreflang="ar" href="https://legal.twitter.com/imprint.html"/>
+      <link rel="alternate" hreflang="id" href="https://legal.twitter.com/imprint.html"/>
+      <link rel="alternate" hreflang="bluebrush" href="https://legal.twitter.com/imprint.html"/>
+      <link rel="alternate" hreflang="uk-procurement-msa" href="https://legal.twitter.com/imprint.html"/>
+
+
+<meta name="twitter:widgets:new-embed-design" content="on"/>
+<meta name="twitter:widgets:csp" content="on"/>
+
+<link href="https://abs.twimg.com/favicons/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+
+
+<script type="application/json" id="analytics-settings">{&quot;google&quot;:{&quot;accounts&quot;:[],&quot;options&quot;:{&quot;displayAdvertisingFeatures&quot;:false}},&quot;scribe&quot;:{&quot;scribeSectionWithImpression&quot;:false},&quot;trackingPixel&quot;:{},&quot;bing&quot;:{}}</script>
+
+    
+
+    
+<link rel="stylesheet" href="/etc/designs/legal-twitter/clientlib-site.min.css" type="text/css">
+
+
+
+
+
+<script type="text/javascript" src="/etc/clientlibs/dtm/legal-twitter/c411b4930511/66f0485da484/launch-044dba7d06b4.min.js" async></script>
+
+
+
+
+
+
+
+
+  </head>
+  <body class="page content-page " data-analytics-page="legal" data-analytics-element="page">
+
+  <div id="page-wrapper">
+    <div id="loader-container">
+  <div id="loader" class="active"></div>
+</div>
+<div class="comp-wrapper nav-drawer no-interaction  no-interaction transparent">
+  <div class="comp-container">
+    <div class="nav-wrapper">
+      <header>
+        <div class="header-left">
+          <div class="nav-drawer-link">
+            <div class="property-title">
+              <a href="https://twitter.com" class="logo-and-title">
+                <span class="logo">
+                   <i class="icon-logo_sml" aria-hidden="true"></i>
+                  <span class="screen-reader">Twitter logo icon</span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="header-right">
+          <div class="login-wrapper">
+            <!--#include virtual="/content/legal-twitter/imprint/_jcr_content/header/profilePhoto.nocache.html/common-twitter/components/universal/u04-profile-dropdown" -->
+          </div>
+        </div>
+      </header>
+    </div>
+  </div>
+</div>
+
+<div class="transparent-masthead"></div>
+
+
+    
+<div id="main-content">
+  <div class="c01-column">
+    <div class="container  ">
+      <div class="t-row">
+        <div class="col col-1"></div>
+        <div class="col col-11">
+          <div>
+
+
+
+
+    
+    
+    <div class="tos02-index-section-title">
+<div class="comp-wrapper indexed-section-title">
+    <div id="impressumtwitter" name="impressumtwitter"></div>
+    
+        <h3>Impressum Twitter</h3> 
+    
+</div></div>
+
+
+    
+    
+    <div class="c02-rich-text-editor text parbase">
+<p>Die Webseiten unter www.twitter.com und die auf diesen Seiten vorgehaltenen Dienste werden dir angeboten von:</p>
+<p>Twitter International Company<br />
+One Cumberland Place<br />
+Fenian Street<br />
+Dublin 2<br />
+D02 AX07<br />
+Ireland</p>
+
+</div>
+
+
+    
+    
+    <div class="c02-rich-text-editor text parbase">
+<p>registriert beim Companies Registration Office der Republik Irland.<br />
+Vertretungsberechtigte Personen: Laurence O'Brien, Robert O'Shea<br />
+Unternehmensnummer: 503351<br />
+Umsatzsteuer-Identifikationsnummer: IE9803175Q</p>
+
+</div>
+
+
+    
+    
+    <div class="c02-rich-text-editor text parbase">
+<p><b>Kundenservice:  </b>Kontaktiere Twitter International Company <br />
+via <a href="https://support.twitter.com/forms" style="">https://support.twitter.com/forms</a></p>
+
+</div>
+
+
+    
+    
+    <div class="c21-image">
+
+
+
+
+<div class="comp-wrapper comp-img cq-dd-image">
+  
+  
+
+  
+  <picture>
+    <source srcset="https://cdn.cms-twdigitalassets.com/content/dam/legal-twitter/site-assets/desupportimpressum-small5.png" media="(min-width: 901px)"/>
+    <img srcset="https://cdn.cms-twdigitalassets.com/content/dam/legal-twitter/site-assets/desupportimpressum-small5.png"/>
+  </picture>
+
+</div>
+</div>
+
+
+    
+    
+    <div class="c02-rich-text-editor text parbase">
+<p> </p>
+<p><b>Beschwerden nach Netzwerkdurchsetzungsgesetz:<br />
+ </b>Beschwerden wegen rechtswidriger Inhalte nach dem Netzwerkdurchsetzungsgesetz können eingereicht werden via <a href="https://help.twitter.com/forms/netzwerkdurchsetzungsgesetz">https://help.twitter.com/forms/netzwerkdurchsetzungsgesetz</a> oder auch über die oben angegebene E-Mail-Adresse<b><br />
+</b></p>
+<p><b>Inländischer Zustellungsbevollmächtigter gemäß § 5 Abs. 1 NetzDG, § 24d JuSchG, § 21 Abs. 2 JMStV und § 92 Medienstaatsvertrag:</b></p>
+<p>T. I. Kontakt GmbH</p>
+<p>c/o von BOETTICHER Rechtsanwälte<br />
+Partnerschaftsgesellschaft mbB<br />
+Widenmayerstraße 6, D 80538 München</p>
+<p>Diese Zustellungsbevollmächtigung gilt ausschließlich für Zustellungen in behördlichen Verfahren nach § 4 NetzDG, § 24b JuSchG, § 24 JMStV und § 115 Medienstaatsvertrag sowie in Gerichtsverfahren vor deutschen Gerichten wegen Verbreitung rechtswidriger Inhalte im Sinne von § 1 Abs. 3 NetzDG und § 21 Abs. 2 JMStV.</p>
+
+</div>
+
+
+    
+    
+    <div class="c02-rich-text-editor text parbase">
+<p><b>Empfangsberechtigte Person gemäß § 5 Abs. 2 NetzDG:</b></p>
+<p>T. I. Kontakt GmbH</p>
+<p>Inländische Strafverfolgungsbehörden können Auskunftsersuchen an die empfangsberechtigte Person hier <a href="https://legalrequests.twitter.com/">https://legalrequests.twitter.com/</a> übermitteln.</p>
+
+</div>
+
+
+    
+    
+    <div class="c02-rich-text-editor text parbase">
+<p><b>Online-Streitbeilegung gemäß Art. 14 Abs. 1 ODR-Verordnung:</b><br />
+</p>
+<p>Wir sind weder bereit noch verpflichtet, an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen. Dies betrifft auch die von der Europäischen Kommission bereitgestellte Plattform zur außergerichtlichen Online-Streitbeilegung.</p>
+<p><b>Twitter Netzwerkdurchsetzungsgesetzbericht:</b></p>
+<p>Twitter ist verpflichtet einen halbjährlichen Bericht über den Umgang mit Beschwerden, die gemäss dem NetzDG eingereicht wurden, zu veröffentlichen. Lesen Sie den neuesten Bericht <a href="https://transparency.twitter.com/content/dam/transparency-twitter/netzdg/NetzDGJul-Dec2020.pdf">hier</a>. Für ältere Berichte klicken Sie bitte <a href="https://transparency.twitter.com/de/reports/countries/de.html">hier</a>.<br />
+</p>
+
+</div>
+
+
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="c13-spacer">
+    <div class="comp-wrapper spacer margin-standard">
+    </div>
+  </div>
+</div>
+
+    <footer class="comp-wrapper nav-footer">
+  
+  <div class="footer-bottom">
+    <div class="comp-container">
+      <div class="footer-wrapper">
+        <div class="copyright">&copy; 2021 Twitter, Inc.</div>
+        <ul>
+          <li><a href="https://help.twitter.com/rules-and-policies/twitter-cookies" title="Cookies" target="_blank" rel="noopener noreferrer" class="twtr-scribe-clicks" data-twtr-scribe-section="u03-footer" data-twtr-scribe-element="XMRE" data-twtr-scribe-component="cookies">
+              Cookies</a></li>
+        
+          <li><a href="https://twitter.com/privacy" title="Privacy" target="_blank" rel="noopener noreferrer" class="twtr-scribe-clicks" data-twtr-scribe-section="u03-footer" data-twtr-scribe-element="XMRE" data-twtr-scribe-component="privacy">
+              Privacy</a></li>
+        
+          <li><a href="https://twitter.com/tos" title="Terms and conditions" target="_blank" rel="noopener noreferrer" class="twtr-scribe-clicks" data-twtr-scribe-section="u03-footer" data-twtr-scribe-element="XMRE" data-twtr-scribe-component="terms-and-conditions">
+              Terms and conditions</a></li>
+        </ul>
+        <div class="language">
+          
+  <span class="lang-selection">Language</span>
+
+  <div class="lang-flyout" data-all-languages="imprint,ads-terms,emea-procurement-msa,suppliers,data-terms,contributor-license-agreement,en,it,de,es,fr,ja,ko,pt,ru,ar,id,bluebrush,uk-procurement-msa,">
+    <ul class="lang-languages" data-columns="2">
+      <li>
+          
+        <a href="/imprint.html" data-iso-code="imprint" class="twtr-scribe-clicks" data-twtr-scribe-section="u05-language-selector" data-twtr-scribe-element="3W00" data-twtr-scribe-component="imprint">
+           Imprint</a>
+      </li>
+    
+      <li>
+          
+        <a href="/imprint.html" data-iso-code="ads-terms" class="twtr-scribe-clicks" data-twtr-scribe-section="u05-language-selector" data-twtr-scribe-element="3W00" data-twtr-scribe-component="twitter-master-services-agreement">
+           Twitter Master Services Agreement</a>
+      </li>
+    
+      <li>
+          
+        <a href="/imprint.html" data-iso-code="emea-procurement-msa" class="twtr-scribe-clicks" data-twtr-scribe-section="u05-language-selector" data-twtr-scribe-element="3W00" data-twtr-scribe-component="emea-procurement-msa">
+           EMEA Procurement MSA</a>
+      </li>
+    
+      <li>
+          
+        <a href="/imprint.html" data-iso-code="suppliers" class="twtr-scribe-clicks" data-twtr-scribe-section="u05-language-selector" data-twtr-scribe-element="3W00" data-twtr-scribe-component="supplier-information-page">
+           Supplier Information Page</a>
+      </li>
+    
+      <li>
+          
+        <a href="/imprint.html" data-iso-code="data-terms" class="twtr-scribe-clicks" data-twtr-scribe-section="u05-language-selector" data-twtr-scribe-element="3W00">
+           </a>
+      </li>
+    
+      <li>
+          
+        <a href="/imprint.html" data-iso-code="contributor-license-agreement" class="twtr-scribe-clicks" data-twtr-scribe-section="u05-language-selector" data-twtr-scribe-element="3W00" data-twtr-scribe-component="contributor-license-agreement">
+           Contributor License Agreement</a>
+      </li>
+    
+      <li>
+          
+        <a href="/imprint.html" data-iso-code="en" class="twtr-scribe-clicks" data-twtr-scribe-section="u05-language-selector" data-twtr-scribe-element="3W00" data-twtr-scribe-component="english">
+           English</a>
+      </li>
+    
+      <li>
+          
+        <a href="/imprint.html" data-iso-code="it" class="twtr-scribe-clicks" data-twtr-scribe-section="u05-language-selector" data-twtr-scribe-element="3W00" data-twtr-scribe-component="italian">
+           Italian</a>
+      </li>
+    
+      <li>
+          
+        <a href="/imprint.html" data-iso-code="de" class="twtr-scribe-clicks" data-twtr-scribe-section="u05-language-selector" data-twtr-scribe-element="3W00" data-twtr-scribe-component="deutsch">
+           Deutsch</a>
+      </li>
+    
+      <li>
+          
+        <a href="/imprint.html" data-iso-code="es" class="twtr-scribe-clicks" data-twtr-scribe-section="u05-language-selector" data-twtr-scribe-element="3W00" data-twtr-scribe-component="espa-ol">
+           Español</a>
+      </li>
+    
+      <li>
+          
+        <a href="/imprint.html" data-iso-code="fr" class="twtr-scribe-clicks" data-twtr-scribe-section="u05-language-selector" data-twtr-scribe-element="3W00" data-twtr-scribe-component="french">
+           French</a>
+      </li>
+    
+      <li>
+          
+        <a href="/imprint.html" data-iso-code="ja" class="twtr-scribe-clicks" data-twtr-scribe-section="u05-language-selector" data-twtr-scribe-element="3W00" data-twtr-scribe-component="japanese">
+           Japanese</a>
+      </li>
+    
+      <li>
+          
+        <a href="/imprint.html" data-iso-code="ko" class="twtr-scribe-clicks" data-twtr-scribe-section="u05-language-selector" data-twtr-scribe-element="3W00" data-twtr-scribe-component="-">
+           한국어</a>
+      </li>
+    
+      <li>
+          
+        <a href="/imprint.html" data-iso-code="pt" class="twtr-scribe-clicks" data-twtr-scribe-section="u05-language-selector" data-twtr-scribe-element="3W00" data-twtr-scribe-component="portuguese">
+           Portuguese</a>
+      </li>
+    
+      <li>
+          
+        <a href="/imprint.html" data-iso-code="ru" class="twtr-scribe-clicks" data-twtr-scribe-section="u05-language-selector" data-twtr-scribe-element="3W00" data-twtr-scribe-component="russian">
+           Russian</a>
+      </li>
+    
+      <li>
+          
+        <a href="/imprint.html" data-iso-code="ar" class="twtr-scribe-clicks" data-twtr-scribe-section="u05-language-selector" data-twtr-scribe-element="3W00" data-twtr-scribe-component="-">
+           العربية</a>
+      </li>
+    
+      <li>
+          
+        <a href="/imprint.html" data-iso-code="id" class="twtr-scribe-clicks" data-twtr-scribe-section="u05-language-selector" data-twtr-scribe-element="3W00" data-twtr-scribe-component="bahasa-indonesia">
+           Bahasa Indonesia</a>
+      </li>
+    
+      <li>
+          
+        <a href="/imprint.html" data-iso-code="bluebrush" class="twtr-scribe-clicks" data-twtr-scribe-section="u05-language-selector" data-twtr-scribe-element="3W00">
+           </a>
+      </li>
+    
+      <li>
+          
+        <a href="/imprint.html" data-iso-code="uk-procurement-msa" class="twtr-scribe-clicks" data-twtr-scribe-section="u05-language-selector" data-twtr-scribe-element="3W00" data-twtr-scribe-component="uk-procurement-msa">
+           UK Procurement MSA</a>
+      </li>
+    </ul>
+  </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  </div>
+  
+
+    
+<script src="/etc.clientlibs/clientlibs/granite/jquery.min.js"></script>
+<script src="/etc/designs/common-twitter/global-vars.min.js"></script>
+<script src="/etc/designs/legal-twitter/clientlib-site.min.js"></script>
+
+
+
+
+
+<script type="text/javascript" src="/etc/clientlibs/dtm/legal-twitter/c411b4930511/66f0485da484/launch-044dba7d06b4.min.js" async></script>
+
+
+
+<script src="https://platform.twitter.com/oct.js"></script>
+<script src="https://platform.twitter.com/widgets.js"></script>
+
+    
+<script src="/etc/designs/common-twitter/analytics.min.js"></script>
+
+
+
+
+
+
+    
+<script src="/etc/designs/legal-twitter/clientlib-twtr-profile-adapter.min.js"></script>
+
+
+
+
+
+  <div id="u12" class="u12-data-protection-notice">
+
+    
+    <div class="u12-data-protection-notice__item  u12-data-protection-notice__item--a">
+      
+
+  
+
+  
+  <div class="js-eu-countries-list" data-eu-countries-list="[AT,BE,BG,CY,CZ,DK,EE,FI,FR,DE,EL,HU,IE,IT,LV,LT,LU,MT,NL,PL,PT,RO,SK,SI,ES,SE,UK,IS,NO,LI,CH]"></div>
+
+  <div class="u12a-eu-cookie-notice  js-eu-cookie-notice" id="u12a" data-cname="eu_cn">
+    <div class="u12a-eu-cookie-notice__item  u12-data-protection-notice__notice">
+      <div class="u12a-eu-cookie-notice__content">
+
+        <div class="u12a-eu-cookie-notice__copy">
+          <p class="mtc-font  twtr-font  js-cookie-copy">
+            By using Twitter’s services you agree to our <a href="https://help.twitter.com/en/rules-and-policies/twitter-cookies" target="_blank">Cookies Use</a>. We use cookies for purposes including analytics, personalisation, and ads.
+
+          </p>
+        </div>
+
+        <div class="u12a-eu-cookie-notice__choice">
+          <ul class="u12a-eu-cookie-notice__choice-list">
+            <li><button class="u12a-eu-cookie-notice__button  is-blue  u12a-eu-cookie-notice__button--accept  mtc-font  twtr-font  js-accept">OK</button></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+    </div>
+
+    
+    
+
+  </div>
+
+  
+  
+    
+<link rel="stylesheet" href="/etc/designs/common-twitter/clientlib-u12-data-protection-notice.min.css" type="text/css">
+<script src="/etc/designs/common-twitter/clientlib-promise-polyfill.min.js"></script>
+<script src="/etc/designs/common-twitter/clientlib-twtr-profile-adapter.min.js"></script>
+<script src="/etc/designs/common-twitter/clientlib-u12-data-protection-notice.min.js"></script>
+
+
+
+
+
+
+
+  </body>
+  </html>
+

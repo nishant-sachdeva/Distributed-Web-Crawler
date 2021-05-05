@@ -1,0 +1,31 @@
+Steps to run the code
+
+CLIENT NODES
+1. Set up 4 client nodes by running
+	
+	=> python3 node.py <port_number>
+
+on four different terminal screens.
+
+
+WORKER NODES
+1. python3 main.py
+
+Running this file will take you to a command line structure. You will have to send commands in real time to see outputs
+Following are the formats for the commands
+
+-> command : crawl
+-> Enter Website : <website>
+-> Enter Level : <level>
+
+
+-> command : make_graph
+-> Enter Website : <website>
+-> Enter Depth : <depth>
+
+-> command : html
+-> Enter Website : <website>
+
+-> command : End ( This will close the main.py file )
+
+PS : Note that closing the main.py will NOT lead to loosing the data that we got from crawling. That will persist for as long as the nodes are running
