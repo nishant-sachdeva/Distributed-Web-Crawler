@@ -13,32 +13,22 @@ def validate_url(url):
 		return False
 
 
-def crawl(WebUrl, pages):
-	if (pages > 0) :
-		print("We shall go to " + str(pages-1) + " more levels of these pages")
+def crawl(WebUrl):
+	print("inside crawling now")
 
-	
-		url = WebUrl
-		code = requests.get(url)
-		plain = code.text
+	code = requests.get(url=WebUrl)
+	plain = code.text
 
-		s = BeautifulSoup(plain, "html.parser")
+	s = BeautifulSoup(plain, "html.parser")
 
-		child_url_list = []
-		for link in s.findAll('a'):
-			child_url = link.get('href')
+	child_url_list = []
+	for link in s.findAll('a'):
+		child_url = link.get('href')
 
-			if(validate_url(child_url)):
-				print(child_url)
-				child_url_list.append(child_url)
+		if(validate_url(child_url)):
+			# print(child_url)
+			child_url_list.append(child_url)
 
-		for child in child_url_list:
-			crawl(pages-1, child)
-	else:
-		return
+	return child_url_list
 
-
-
-
-crawl(2, "https://www.google.com")
-print("Crawling has ended")
+# crawl('https://nishant-sachdeva.github.io/')
